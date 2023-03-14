@@ -8,9 +8,7 @@
 body{
     padding: 0;
     margin: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     display: flex;
@@ -92,11 +90,6 @@ h1{
     border: 4px solid rgb(0, 60, 255);
     transition: all 0.1s ease;
 }
-section{
-    font-size: 11px;
-    gap: 32px;
-    margin-top: 50%;
-}
 
 
 
@@ -159,7 +152,7 @@ section{
     justify-content: space-between;
 }
 .tile-tiktok:hover{
-    background: linear-gradient(to left,#ff0050, #000000);
+   background-image: linear-gradient(to right bottom, #0047b3, #004fc6, #0056d8, #005eec, #0066ff);
 }
 .tile-tiktok:hover{
     transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
@@ -211,17 +204,3 @@ section{
     transform: scale(1.02);
 }
 
-
-
-
-
-
-
-@media (max-width: 700px){
-
-    body{
-       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background2.jpeg);
-       background-size: cover;
-       background-repeat: no-repeat;
-    }
-}
