@@ -1,3 +1,5 @@
+// Script 
+
 document.addEventListener('DOMContentLoaded', () => 
 {
     new TypeIt('.text', {
